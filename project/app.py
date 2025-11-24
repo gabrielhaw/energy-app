@@ -1,5 +1,3 @@
-from backend.proc import *
-
 import pandas as pd 
 import streamlit as st
 import plotly.express as px
@@ -12,6 +10,7 @@ def setup_page():
     st.set_page_config(page_title="Energy Intelligence Dashboard", layout="wide")
 
     st.markdown("""
+                
         <style>
             /* ---------------------------
             PAGE TITLE (theme adaptive)
